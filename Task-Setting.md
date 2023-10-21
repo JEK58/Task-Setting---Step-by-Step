@@ -85,7 +85,7 @@ The ESS and also the turnpoints, which must be passed during the final approach 
 
 Strong thermal areas should be avoided on the final approach to the ESS, if a high entry is expected. Flying at full speed along the slope should also be avoided. It makes sense to be able to start the final approach very low but fly less fast in order to be able to fly into the goal with a higher required glide ratio. 
 
-The minimize the risk of collision at the ESS, a turn of almost 180° into the goal should be avoided.
+To minimize the risk of collision at the ESS, a turn of almost 180° into the goal should be avoided.
 
 The route from the ESS to the Goal should be completed with a tailwind. A tailwind landing in 40 km/h wind is less dangerous than an accelerated glider close to the ground, when pilots have to accelerate to improve the glide ratio in order to still reach the goal in a headwind. In addition, the distance between ESS and Goal should offer many landing options, so that pilots coming in too low do not have to turn away or take increased risks even though they still have some altitude left.
 
