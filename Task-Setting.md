@@ -31,10 +31,10 @@ The discard is given in %. In a competition of 4 tasks or more, FTV 25% can resu
 
 #### Define the task length
 
-tS: Define earliest possible race airstart taking into account weather conditions and organizational requirements such as take-off site and transportation.
-tE: The latest possible landing at the goal should as well be defined based on weather forecast and/or organizational reasons, such as the need for retrieval, evening events, or a rescue mission (2h prior to sunset)
-vL: Determine the minimum average speed required for the final pilot to reach the goal, taking into account the weather conditions and the skill level of the pilots.
-Task time [h] = tE - tS
+tS: Define earliest possible race airstart taking into account weather conditions and organizational requirements such as take-off site and transportation.  
+tE: The latest possible landing at the goal should as well be defined based on weather forecast and/or organizational reasons, such as the need for retrieval, evening events, or a rescue mission (2h prior to sunset)  
+vL: Determine the minimum average speed required for the final pilot to reach the goal, taking into account the weather conditions and the skill level of the pilots.  
+Task time [h] = tE - tS  
 Task length [km] = (tE – tS) * vL
 
 #### Define the Race Format 
@@ -44,6 +44,8 @@ Task length [km] = (tE – tS) * vL
 **Elapsed Time:** Waiting until Airstart is not possible in the air.
 
 **Race with Gates:** Waiting is possible for individuals until the Airstart in the air. For Elapsed Time and Race with Gates, it is recommended to reduce the Leading Points or replace them with Departure Points.
+
+It is always more sporting to set a task deadline than to have to stop the task.
 
 #### Define the rough route
 
