@@ -6,6 +6,7 @@ import imgReference from "../img/liga-logo.png"; // imgReference === '/src/image
 <header>
   <nav>
     <img
+      id="liga-logo"
       src={imgReference.src}
       width="32"
       width="32"
@@ -31,10 +32,15 @@ import imgReference from "../img/liga-logo.png"; // imgReference === '/src/image
   </nav>
 </header>
 <style>
+  @media (prefers-color-scheme: dark) {
+    #liga-logo {
+      content: url("../img/liga-logo-dark.png");
+    }
+  }
   header {
     margin: 0;
     padding: 0 1em;
-    background: white;
+    background: var(--background-color);
     box-shadow: 0 2px 8px rgba(var(--black), 5%);
   }
   h2 {
