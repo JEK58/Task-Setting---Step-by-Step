@@ -1,6 +1,6 @@
 # Task Setting - Step by Step
 
-##### A guideline for safe paragliding tasks.
+#### A guideline for safe paragliding tasks.
 
 Paragliding competition tasks demand careful planning to ensure the safety and satisfaction of the pilots. This document serves as a resource for task committees, meet directors, safety committees and every pilot, providing a systematic approach to task setting.
 
