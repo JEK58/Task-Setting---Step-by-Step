@@ -1,5 +1,18 @@
-# Task setting step by step
-> by DHV German League
+---
+title: 'Task Setting - Step by Step'
+description: 'A guideline for safe paragliding tasks.'
+heroImage: '/blog-placeholder-3.jpg'
+---
+
+
+<!-- > by DHV German League -->
+
+### Preface
+
+Paragliding competition tasks demand careful planning to ensure the safety and satisfaction of the pilots. This document serves as a resource for task committees, meet directors, safety committees and every pilot, providing a systematic approach to task setting.
+
+We believe in the power of collaboration. This document is open to feedback and contributions from the community. If you have insights, ideas, or concerns that can enhance this guideline, please don't hesitate to reach out or [directly contribute to this document.](https://github.com/JEK58/Task-Setting---Step-by-Step/blob/main/Task-Setting.md "Edit this document on Github")
+
 
 ### The task committee process
 
@@ -31,9 +44,9 @@ The discard is given in %. In a competition of 4 tasks or more, FTV 25% can resu
 
 #### Define the task length
 
-tS: Define earliest possible race airstart taking into account weather conditions and organizational requirements such as take-off site and transportation.  
-tE: The latest possible landing at the goal should as well be defined based on weather forecast and/or organizational reasons, such as the need for retrieval, evening events, or a rescue mission (2h prior to sunset)  
-vL: Determine the minimum average speed required for the final pilot to reach the goal, taking into account the weather conditions and the skill level of the pilots.  
+**tS:** Define earliest possible race airstart taking into account weather conditions and organizational requirements such as take-off site and transportation.  
+**tE:** The latest possible landing at the goal should as well be defined based on weather forecast and/or organizational reasons, such as the need for retrieval, evening events, or a rescue mission (2h prior to sunset)  
+**vL:** Determine the minimum average speed required for the final pilot to reach the goal, taking into account the weather conditions and the skill level of the pilots.  
 Task time [h] = tE - tS  
 Task length [km] = (tE – tS) * vL
 
@@ -153,3 +166,13 @@ ______ Race Format (Race, Elapsed, w. gates)
 - [ ] Line in 90° to optimized route?
 - [ ] No trees, cables, roads, buildings, water areas or fences around?
 - [ ] Are unexpected arrival directions fine too?
+
+
+#### Credits
+
+Written by Ferdinand Vogel 
+
+##### Collaborators
+
+- Ramona Eckert
+- Stephan Schöpe
