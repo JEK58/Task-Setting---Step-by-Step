@@ -4,7 +4,6 @@ description: 'A guideline for safe paragliding tasks.'
 heroImage: '/blog-placeholder-3.jpg'
 ---
 
-
 <!-- > by DHV German League -->
 
 ### Preface
