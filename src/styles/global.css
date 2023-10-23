@@ -151,6 +151,11 @@ hr {
 		padding: 1em;
 	}
 }
+/* FIXME: Ugly new lines on lists. */
+ ul {
+        list-style-type: none
+    }
+
 
 .sr-only {
 	border: 0;
