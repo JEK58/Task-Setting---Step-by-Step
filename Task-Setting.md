@@ -17,7 +17,8 @@ We believe in the power of collaboration. This document is open to feedback and 
 
 There should be three experts on the task committee to ensure diversity of options, risk analysis and a compromise framework for discussion. The meet director should be available in an advisory role, but should not be a member of the committee. Together with a safety committee of two other pilots, the meet director reviews the task prepared by the task committee. They pass on tips, ideas and concerns to the task committee for evaluation. The task committee adjusts the task and releases it for further review. This process continues until agreement is reached.
 
-![Task Creation Flow](https://github.com/JEK58/Task-Setting---Step-by-Step/assets/35194489/0ac3f8ff-ee49-4a66-b7e9-f34e35ed0a38)
+![Task Creation Flow](https://github.com/JEK58/Task-Setting---Step-by-Step/assets/35194489/fb3ab537-5886-49f8-8eba-4937f8081672)
+
 
 
 ### Set the important task parameters
