@@ -17,7 +17,7 @@ We believe in the power of collaboration. This document is open to feedback and 
 
 There should be three experts on the task committee to ensure diversity of options, risk analysis and a compromise framework for discussion. The meet director should be available in an advisory role, but should not be a member of the committee. Together with a safety committee of two other pilots, the meet director reviews the task prepared by the task committee. They pass on tips, ideas and concerns to the task committee for evaluation. The task committee adjusts the task and releases it for further review. This process continues until agreement is reached.
 
-<img width="813" alt="Screenshot 2023-10-11 at 16 13 57" src="https://user-images.githubusercontent.com/35194489/274304292-f61997a2-1e08-48d5-beee-8d52f39ca7cd.png">
+![Task Creation Flow](https://github.com/JEK58/Task-Setting---Step-by-Step/assets/35194489/0ac3f8ff-ee49-4a66-b7e9-f34e35ed0a38)
 
 
 ### Set the important task parameters:
@@ -91,7 +91,8 @@ After the SSS, pilots should have many thermal options so that the group is spre
 
 The preferred choice should be an ENTER cylinder so that there are many ideal points for starting. With a classic small EXIT cylinder there is only one ideal point on which the group is concentrated. If you do not choose the same waypoint as for the SSS as the first waypoint, more options can result (Enter example). With an ENTER cylinder, care should be taken that the ideal point for the shortest optimized route is not on the opposite side of the turnpoint. Waiting there would require starting to fly very early, effectively starting the race on the ground. By using diagonal cylinders, pilots can be attracted to non-thermal areas so that they have a shorter distance but lose more altitude to reach the SSS (Exit example). 
 
-<img width="813" alt="Screenshot 2023-10-11 at 16 14 18" src="https://user-images.githubusercontent.com/35194489/274304658-7b5d9267-453e-4d6e-9af6-66ab68ecf754.png">
+![SSS](https://github.com/JEK58/Task-Setting---Step-by-Step/assets/35194489/1c2d8861-0927-4fee-be2e-5f75ef728c40)
+
 
 #### Define the End of Speed Section
 
