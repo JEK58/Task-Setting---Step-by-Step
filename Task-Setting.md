@@ -84,7 +84,7 @@ Every turn and route between cylinders must be checked for the following points:
 - Are there obstacles on the way there and back (cable cars, power lines, air spaces, lee edges)?
 
 
-#### Define the Start of Speed Section!
+#### Define the Start of Speed Section
 
 The SSS should spread the pilots out from the beginning to avoid collisions. This can be achieved by having several thermal sources attractive to wait for the airstart. Care should be taken to ensure that the approach direction to the SSS is very similar for all, or that groups taking the SSS from different directions do not meet. The continuation of the flight to the first turnpoint must be designed in such a way that the pilots do not have to make more than 120° course changes at the cylinder. A turn at the SSS leads to an increased risk of collision. 
 
