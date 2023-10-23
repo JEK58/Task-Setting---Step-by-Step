@@ -20,7 +20,7 @@ There should be three experts on the task committee to ensure diversity of optio
 ![Task Creation Flow](https://github.com/JEK58/Task-Setting---Step-by-Step/assets/35194489/0ac3f8ff-ee49-4a66-b7e9-f34e35ed0a38)
 
 
-### Set the important task parameters:
+### Set the important task parameters
 
 #### Minimum Distance
 
@@ -39,7 +39,7 @@ The minimum time that should be flown to have a sporting task. It is not related
 
 The discard is given in %. In a competition of 4 tasks or more, FTV 25% can result in a complete discard if each task is worth 1000 points for the task winner. Therefore, the use of FTV with 25% is only recommended for competitions of 5 days or more. From 10 days onwards 20% FTV is recommended. Not using FTV rewards consistent flying and can also be an option.
 
-### Setting the task:
+### Setting the task
 
 #### Define the task length
 
