@@ -153,7 +153,8 @@ hr {
 }
 /* FIXME: Ugly new lines on lists. */
  ul {
-        list-style-type: none
+        list-style-type: none;
+		padding-left: 0;
     }
 
 
