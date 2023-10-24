@@ -171,7 +171,7 @@ ______ Race Format (Race, Elapsed, w. gates)
 
 #### Credits
 
-Written by Ferdinand Vogel 
+Initial version written by Ferdinand Vogel 
 
 ##### Collaborators
 
