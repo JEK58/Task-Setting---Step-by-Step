@@ -24,11 +24,21 @@ import { Content as TaskSetting, frontmatter } from "../../Task-Setting.md";
         border-radius: 12px;
         box-shadow: var(--box-shadow);
       }
+      .photo-credit {
+        color: rgb(var(--gray));
+        display: block;
+        margin: auto;
+        margin-top: 0.2em;
+        text-align: right;
+        max-width: 1020px;
+        font-size: 0.8em;
+      }
       .prose {
         width: 720px;
         max-width: calc(100% - 2em);
         margin: auto;
         padding: 1em;
+        padding-top: 0;
         color: rgb(var(--gray-dark));
       }
       .title {
@@ -57,12 +67,15 @@ import { Content as TaskSetting, frontmatter } from "../../Task-Setting.md";
         <div class="hero-image">
           {
             frontmatter.heroImage && (
-              <img
-                width={1020}
-                height={510}
-                src={frontmatter.heroImage}
-                alt=""
-              />
+              <>
+                <img
+                  width={1020}
+                  height={510}
+                  src={frontmatter.heroImage}
+                  alt="hero image"
+                />
+                <p class="photo-credit">{frontmatter.heroCredit}</p>
+              </>
             )
           }
         </div>
