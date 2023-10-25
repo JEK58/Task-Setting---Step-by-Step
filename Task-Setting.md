@@ -1,7 +1,8 @@
 ---
 title: 'Task Setting - Step by Step'
 description: 'A guideline for safe paragliding tasks.'
-heroImage: '/blog-placeholder-3.jpg'
+heroImage: '/taskbriefing.jpg'
+heroCredit: "Photo by Andu Ivan"
 ---
 
 <!-- > by DHV German League -->
