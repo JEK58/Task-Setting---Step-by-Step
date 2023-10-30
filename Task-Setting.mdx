@@ -5,7 +5,10 @@ heroImage: '/taskbriefing.jpg'
 heroCredit: "Photo by Andu Ivan"
 ---
 
-<!-- > by DHV German League -->
+import Checkbox from './src/components/CheckBox.astro';
+import RadioGroup from './src/components/RadioGroup.astro';
+import NumberInput from './src/components/NumberInput.astro';
+
 
 ### Preface
 
@@ -26,7 +29,7 @@ There should be three experts on the task committee to ensure diversity of optio
 
 #### Minimum Distance
 
-<!-- Ich finde den Abschnitt sperrig, habe aber noch keine bessere Lösung -->
+{/* Ich finde den Abschnitt sperrig, habe aber noch keine bessere Lösung */}
 From which shortest distance onwards, differentiated scoring takes place. This distance should correspond to a straight down glide from the highest used take-off point with headwind. Standard is 7 km.
 
 #### Nominal Distance
@@ -43,7 +46,7 @@ The discard is given in %. In a competition of 4 tasks or more, FTV 25% can resu
 
 ### Setting the task
 
-#### Define the task length
+#### Defining the task length
 
 **tS:** Define earliest possible race airstart taking into account weather conditions and organizational requirements such as take-off site and transportation.  
 **tE:** The latest possible landing at the goal should as well be defined based on weather forecast and/or organizational reasons, such as the need for retrieval, evening events, or a rescue mission (2h prior to sunset)  
@@ -51,7 +54,7 @@ The discard is given in %. In a competition of 4 tasks or more, FTV 25% can resu
 Task time [h] = tE - tS  
 Task length [km] = (tE – tS) * vL
 
-#### Define the Race Format 
+#### Race Format 
 
 **Race to Goal:** If it is possible for all pilots to safely wait in the air between Window Open (ground departure possible) and Airstart, this option should always be preferred.
 
@@ -61,11 +64,11 @@ Task length [km] = (tE – tS) * vL
 
 It is always more sporting to set a task deadline than to have to stop the task.
 
-#### Define the rough route
+#### Defining the rough route
 
 A rough route is defined based on the calculated task distance and the weather forecast. The safety of the pilots is a primary concern. Rough leeward areas, high wind areas, airspaces and non-landable areas should be avoided. Retrieval must be considered. Variety for the pilots and unusual routes, away from standard XC routes, increase the fun factor. Difficulties should only be incorporated between 30% and 60% of the task distance. Attention should be paid to manageability for the slowest pilots. They may fly alone and with less powerful gliders. In order not to diminish the motivation of the weaker ones, difficulties should not be right at the beginning of the task. For the purpose of sportsmanship, difficulties should also not be placed shortly before the goal, otherwise the best pilots can no longer compensate a small mistake.
 
-#### Define all turnpoints
+#### Defining all turnpoints
 
 A variety of options is desirable, but care should be taken to ensure a common race course. If the route options are so divided that they cannot be changed for the most part of the race, different races will quickly be flown. Ideally, there are many route options that intersect each other regularly so that the route options can be changed.
 
@@ -85,7 +88,7 @@ Every turn and route between cylinders must be checked for the following points:
 - Are there obstacles on the way there and back (cable cars, power lines, air spaces, lee edges)?
 
 
-#### Define the Start of Speed Section
+#### Start of Speed Section
 
 The SSS should spread the pilots out from the beginning to avoid collisions. This can be achieved by having several thermal sources attractive to wait for the airstart. Care should be taken to ensure that the approach direction to the SSS is very similar for all, or that groups taking the SSS from different directions do not meet. The continuation of the flight to the first turnpoint must be designed in such a way that the pilots do not have to make more than 120° course changes at the cylinder. A turn at the SSS leads to an increased risk of collision. 
 
@@ -96,7 +99,7 @@ The preferred choice should be an ENTER cylinder so that there are many ideal po
 ![SSS](https://github.com/JEK58/Task-Setting---Step-by-Step/assets/35194489/1c2d8861-0927-4fee-be2e-5f75ef728c40)
 
 
-#### Define the End of Speed Section
+#### End of Speed Section
 
 The ESS and also the turnpoints, which must be passed during the final approach to the Goal, should never be so high that you have to soar again in the group to reach the turnpoint. 
 
@@ -108,66 +111,69 @@ The route from the ESS to the Goal should be completed with a tailwind. A tailwi
 
 The distance between ESS and Goal should be kept short, so that in the event of a task stop, pilots who reached the ESS can still make the Goal. In addition, the task distance minimizes if the ESS is too far away from the Goal. However, the distance should be set significant enough that the pilots still reach the ESS at least 200m above ground. This way, there is enough remaining altitude for a collapse at full speed.
 
-#### Define the Goal
+#### Defining the Goal
 
 A line is to be preferred, even if no physical line is laid out. The direction from the last turnpoint should be almost parallel to the optimised line so that the goalline is at the correct angle. The goalline/goal cylinder should be free of obstacles (forest, houses, fences, wires, roads) and be landable. If pilots approach from an unexpected direction, it must still be possible to do so safely.
 
 ### Task setting check list
 
+
 **Rough route:**
 
-______ km Task length [km] = (tE – tS) * vL
+<NumberInput label={"km Task length [km] = (tE – tS) * vL"}/>
 
-______ Race Format (Race, Elapsed, w. gates)  
+**Race Format:**
+<RadioGroup options={["Race", "Elapsed", "Elapsed /w gates"]}/>
 
-- [ ] No Big lee sides?
-- [ ] No high wind areas?
-- [ ] No landing areas?
-- [ ] No hard to retrieve areas?
-- [ ] Main difficulties only between 30 to 60 % of the task distance?
-- [ ] Possible for low class gliders?
-- [ ] Interesting route (different, nice areas)?
+**General:**
+<Checkbox>No Big lee sides?</Checkbox>
+<Checkbox>No high wind areas?</Checkbox>
+<Checkbox>No landing areas?</Checkbox>
+<Checkbox>No hard to retrieve areas?</Checkbox>
+<Checkbox>Main difficulties only between 30 to 60 % of the task distance?</Checkbox>
+<Checkbox>Possible for low class gliders?</Checkbox>
+<Checkbox>Interesting route (different, nice areas)?</Checkbox>
 
 **Turnpoint and radius checks (each turnpoint individually and in combination!):**
-- [ ] Are many route options possible that cross each other regularly?
-- [ ] Radius with a lot of options to take the turnpoint?
-- [ ] Less long transitions without thermals?
-- [ ] Many thermal trigger options after long glide transitions?
-- [ ] What happens if the valley wind reaches higher than currently thought?
-- [ ] What happens if the wind is +/- 30° different than currently expected?
-- [ ] What happens if the wind is weaker/stronger than expected?
-- [ ] What time will the pilots be there, what does the position of the sun do?
-- [ ] What happens to the leeward situation when everything is shaded?
-- [ ] Is the turnpoint reachable when everything is shaded?
-- [ ] What happens if the base is lower than currently thought?
-- [ ] Can the cylinder be reached when the pilots are all just gliding out?
-- [ ] Are there obstacles on the way there and back (cable cars, power lines, air spaces, lee edges)?
+<Checkbox>Are many route options possible that cross each other regularly?</Checkbox>
+<Checkbox>Radius with a lot of options to take the turnpoint?</Checkbox>
+<Checkbox>Less long transitions without thermals?</Checkbox>
+<Checkbox>Many thermal trigger options after long glide transitions?</Checkbox>
+<Checkbox>What happens if the valley wind reaches higher than currently thought?</Checkbox>
+<Checkbox>What happens if the wind is +/- 30° different than currently expected?</Checkbox>
+<Checkbox>What happens if the wind is weaker/stronger than expected?</Checkbox>
+<Checkbox>What time will the pilots be there, what does the position of the sun do?</Checkbox>
+<Checkbox>What happens to the leeward situation when everything is shaded?</Checkbox>
+<Checkbox>Is the turnpoint reachable when everything is shaded?</Checkbox>
+<Checkbox>What happens if the base is lower than currently thought?</Checkbox>
+<Checkbox>Can the cylinder be reached when the pilots are all just gliding out?</Checkbox>
+<Checkbox>Are there obstacles on the way there and back (cable cars, power lines, air spaces, lee edges)?</Checkbox>
 
 **Start of Speed Section:**
-- [ ] Several thermal triggers attractive for waiting?
-- [ ] Large area on the cylinder that is as good as the optimized point?
-- [ ] Each approval direction/bearing similar, or no meeting of the different groups?
-- [ ] No ground started race for reaching best point far away from the takeoff?
-- [ ] No >120° turnaround at the SSS and first turnpoint?
-- [ ] Many thermal options after SSS?
-- [ ] No low ridge racing after SSS?
+<Checkbox>Several thermal triggers attractive for waiting?</Checkbox>
+<Checkbox>Large area on the cylinder that is as good as the optimized point?</Checkbox>
+<Checkbox>Each approval direction/bearing similar, or no meeting of the different groups?</Checkbox>
+<Checkbox>No ground started race for reaching best point far away from the takeoff?</Checkbox>
+<Checkbox>No >120° turnaround at the SSS and first turnpoint?</Checkbox>
+<Checkbox>Many thermal options after SSS?</Checkbox>
+<Checkbox>No low ridge racing after SSS?</Checkbox>
 
 **End of Speed Section:**
-- [ ] No soaring to reach a turnpoint on the final glide necessary?
-- [ ] No strong thermal areas to pass during final glide?
-- [ ] No low ridge racing on final glide?
-- [ ] Is starting the final glide at too low altitude possible as good air masses are expected (no fullspeed final necessary)?
-- [ ] No 180° from ESS to goal?
-- [ ] Tailwind to goal?
-- [ ] Landing options between ESS and goal?
-- [ ] Short distance between ESS and goal?
-- [ ] Minimum arrival altitude at ESS 200m?
+<Checkbox>No soaring to reach a turnpoint on the final glide necessary?</Checkbox>
+<Checkbox>No strong thermal areas to pass during final glide?</Checkbox>
+<Checkbox>No low ridge racing on final glide?</Checkbox>
+<Checkbox>Is starting the final glide at too low altitude possible as good air masses are expected (no fullspeed final necessary)?</Checkbox>
+<Checkbox>No 180° from ESS to goal?</Checkbox>
+<Checkbox>Tailwind to goal?</Checkbox>
+<Checkbox>Landing options between ESS and goal?</Checkbox>
+<Checkbox>Short distance between ESS and goal?</Checkbox>
+<Checkbox>Minimum arrival altitude at ESS 200m?</Checkbox>
 
 **Goal:**
-- [ ] Is a goal line possible?
-- [ ] Line in 90° to optimized route?
-- [ ] No trees, cables, roads, buildings, water areas or fences around?
-- [ ] Are unexpected arrival directions fine too?
+<Checkbox>Is a goal line possible?</Checkbox>
+<Checkbox>Line in 90° to optimized route?</Checkbox>
+<Checkbox>No trees, cables, roads, buildings, water areas or fences around?</Checkbox>
+<Checkbox>Are unexpected arrival directions fine too?</Checkbox>
 
 
 #### Credits

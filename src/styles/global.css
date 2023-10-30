@@ -104,7 +104,7 @@ p {
 	margin-bottom: 1em;
 }
 .prose p {
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 }
 textarea {
 	width: 100%;
@@ -151,12 +151,6 @@ hr {
 		padding: 1em;
 	}
 }
-/* FIXME: Ugly new lines on lists. */
- ul {
-        list-style-type: none;
-		padding-left: 0;
-    }
-
 
 .sr-only {
 	border: 0;

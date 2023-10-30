@@ -1,0 +1,92 @@
+---
+interface Props {
+  options: string[];
+}
+const { options } = Astro.props;
+---
+
+<div class="radio-group">
+  {
+    options.map((option) => (
+      <label class="container">
+        {option}
+        <input type="radio" name="radio-group" />
+        <span class="checkmark" />
+      </label>
+    ))
+  }
+</div>
+
+<style>
+  /* Radio group container */
+  .radio-group {
+    display: flex;
+  }
+
+  /* Radio label */
+  .radio-group label {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-right: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default radio input */
+  .radio-group input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Custom radio button */
+  .radio-group .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    background-color: #eee;
+  }
+
+  /* On mouse-over, add a grey background color */
+  .radio-group label:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+
+  /* When the radio button is checked, add a blue background */
+  .radio-group input[type="radio"]:checked ~ .checkmark {
+    background-color: #2196f3;
+  }
+
+  /* Create the radio checkmark/indicator (hidden when not checked) */
+  .radio-group .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the radio checkmark when checked */
+  .radio-group input[type="radio"]:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  /* Style the radio checkmark/indicator */
+  .radio-group .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+</style>

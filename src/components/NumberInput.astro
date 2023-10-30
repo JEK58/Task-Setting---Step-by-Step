@@ -1,0 +1,29 @@
+---
+interface Props {
+  label: string;
+}
+const { label } = Astro.props;
+---
+
+<div class="number-input">
+  <input type="number" class="custom-input" />
+  <label class="label-text">{label}</label>
+</div>
+
+<style>
+  /* Custom number input */
+  .number-input .custom-input {
+    cursor: pointer;
+    width: 60px; /* Adjust the width as needed */
+    height: 24px;
+    background-color: #eee;
+    border: none;
+    padding: 0 10px;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .number-input .label-text {
+    margin-left: 12px;
+  }
+</style>
