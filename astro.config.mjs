@@ -3,13 +3,25 @@ import mdx from "@astrojs/mdx";
 import vercel from "@astrojs/vercel/static";
 import AstroPWA from "@vite-pwa/astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "./src/consts";
-
 // https://astro.build/config
 export default defineConfig({
   site: "https://tasksetting.vercel.app/",
   integrations: [
     mdx(),
     AstroPWA({
+      // selfDestroying: true,
+      // disable: true,
+      workbox: {
+        navigateFallback: "/",
+        globPatterns: ["**/*.{css,js,html,svg,png,ico,txt}"],
+      },
+      devOptions: {
+        enabled: false,
+        navigateFallbackAllowlist: [/^\//],
+      },
+      experimental: {
+        directoryAndTrailingSlashHandler: true,
+      },
       registerType: "autoUpdate",
       manifest: {
         name: SITE_TITLE,
