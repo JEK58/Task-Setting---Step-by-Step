@@ -9,7 +9,7 @@ export default defineConfig({
   integrations: [
     mdx(),
     AstroPWA({
-      selfDestroying: true,
+      // selfDestroying: true,
       // disable: true,
       workbox: {
         navigateFallback: "/",
