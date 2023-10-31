@@ -22,5 +22,5 @@ const minimalPresetNoPadding: Preset = {
 
 export default defineConfig({
   preset: minimalPresetNoPadding,
-  images: ["src/img/liga-logo-pwa.png"],
+  images: ["public/liga-logo-pwa.png"],
 });
