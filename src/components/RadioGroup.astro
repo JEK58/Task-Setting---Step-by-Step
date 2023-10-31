@@ -56,7 +56,7 @@ const { options } = Astro.props;
   }
 
   /* On mouse-over, add a grey background color */
-  .radio-group label:hover input ~ .checkmark {
+  .radio-group label:hover input:not(:checked) ~ .checkmark {
     background-color: #ccc;
   }
 
