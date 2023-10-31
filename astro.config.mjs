@@ -11,8 +11,6 @@ export default defineConfig({
     mdx(),
     AstroPWA({
       registerType: "autoUpdate",
-      // base: "/",
-      // scope: "/",
       manifest: {
         name: SITE_TITLE,
         short_name: "Task Setting",
