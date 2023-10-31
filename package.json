@@ -7,6 +7,7 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "generate-pwa-assets": "pwa-assets-generator --preset minimal",
     "astro": "astro"
   },
   "dependencies": {
@@ -15,5 +16,8 @@
     "@vercel/analytics": "^1.1.1",
     "astro": "^3.4.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@vite-pwa/assets-generator": "^0.0.10",
+    "@vite-pwa/astro": "^0.1.4"
+  }
 }
