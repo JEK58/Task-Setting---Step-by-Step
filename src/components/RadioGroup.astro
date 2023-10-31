@@ -89,4 +89,8 @@ const { options } = Astro.props;
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
+  /* Add focus styles */
+  .radio-group input:focus + .checkmark {
+    box-shadow: 0 0 4px #2196f3;
+  }
 </style>
