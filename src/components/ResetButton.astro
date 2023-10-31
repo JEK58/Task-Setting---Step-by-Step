@@ -1,0 +1,27 @@
+<button data-reset-button>Reset</button>
+
+<script>
+  let checkboxes = document.querySelectorAll('input[type="checkbox"]');
+  let radios = document.querySelectorAll('input[type="radio"]');
+  let numbers = document.querySelectorAll('input[type="number"]');
+
+  const button = document.querySelector("[data-reset-button]");
+
+  button?.addEventListener("click", () => {
+    // Checkboxes
+    for (var i = 0; i < checkboxes.length; i++) {
+      const checkbox = checkboxes[i] as HTMLInputElement;
+      checkbox.checked = false;
+    }
+    // Radios
+    for (var i = 0; i < radios.length; i++) {
+      const radio = radios[i] as HTMLInputElement;
+      radio.checked = false;
+    }
+    // Numbers
+    for (var i = 0; i < numbers.length; i++) {
+      const number = numbers[i] as HTMLInputElement;
+      number.value = "";
+    }
+  });
+</script>
